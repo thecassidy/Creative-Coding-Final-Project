@@ -7,11 +7,11 @@ var h;
 var fft;
 
 function preload(){
-	miami = loadSound("Miami.mp3");
-	car = loadSound("James_Blake_-_If_The_Car_Beside_You_Moves_Ahead_Official_video.mp3");
-	dog = loadSound("boy_pablo_-_Everytime.mp3");
-	mr = loadSound("Father_John_Misty_-_Mr__Tillman_Official_Audio.mp3");
-	done = loadSound("Whats_Done_is_Done.mp3");
+	 miami = loadSound("bensound-tenderness.mp3");
+	// car = loadSound("James_Blake_-_If_The_Car_Beside_You_Moves_Ahead_Official_video.mp3");
+	// dog = loadSound("boy_pablo_-_Everytime.mp3");
+	// mr = loadSound("Father_John_Misty_-_Mr__Tillman_Official_Audio.mp3");
+	// done = loadSound("Whats_Done_is_Done.mp3");
 	
 }
 
