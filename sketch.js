@@ -30,25 +30,25 @@ function setup() {
 	
  
 
-  button = createButton('Play - James Blake');
-  button.position(20,20, 65);
-  button.mousePressed(change_song_car);
+//   button = createButton('Play - James Blake');
+//   button.position(20,20, 65);
+//   button.mousePressed(change_song_car);
 	
-	button2 = createButton('Play - Kali Uchis');
-  button2.position(20,60, 65);
-  button2.mousePressed(change_song_miami);
+// 	button2 = createButton('Play - Kali Uchis');
+//   button2.position(20,60, 65);
+//   button2.mousePressed(change_song_miami);
 	
-	button2 = createButton('Play - boy pablo');
-  button2.position(20,100, 65);
-  button2.mousePressed(change_song_everytime);
+// 	button2 = createButton('Play - boy pablo');
+//   button2.position(20,100, 65);
+//   button2.mousePressed(change_song_everytime);
 	
-	button2 = createButton('Play - Father John Misty');
-  button2.position(20,140, 65);
-  button2.mousePressed(change_song_mr);
+// 	button2 = createButton('Play - Father John Misty');
+//   button2.position(20,140, 65);
+//   button2.mousePressed(change_song_mr);
 	
-		button2 = createButton('Play - Jack White');
-  button2.position(20,180, 65);
-  button2.mousePressed(change_song_done);
+// 		button2 = createButton('Play - Jack White');
+//   button2.position(20,180, 65);
+//   button2.mousePressed(change_song_done);
 }
 
 function draw() {
@@ -101,43 +101,43 @@ function diamond(){
 	
 }
 
-function change_song_car(){
-	amplitude.setInput(car);
-	fft.setInput(car);
-	song.stop();
-	song = car;
-	song.play();
-}
-function change_song_miami(){
-	amplitude.setInput(miami);
-	fft.setInput(miami);
-	song.stop();
-	song = miami;
-	song.play();
-}
+// function change_song_car(){
+// 	amplitude.setInput(car);
+// 	fft.setInput(car);
+// 	song.stop();
+// 	song = car;
+// 	song.play();
+// }
+// function change_song_miami(){
+// 	amplitude.setInput(miami);
+// 	fft.setInput(miami);
+// 	song.stop();
+// 	song = miami;
+// 	song.play();
+// }
 	
-function change_song_everytime(){
-	amplitude.setInput(dog);
-	fft.setInput(dog);
-	song.stop();
-	song = dog;
-	song.play();
-}
+// function change_song_everytime(){
+// 	amplitude.setInput(dog);
+// 	fft.setInput(dog);
+// 	song.stop();
+// 	song = dog;
+// 	song.play();
+// }
 
-function change_song_mr(){
-	amplitude.setInput(mr);
-  fft.setInput(mr);
-	song.stop();
-	song = mr;
-	song.play();
-}
+// function change_song_mr(){
+// 	amplitude.setInput(mr);
+//   fft.setInput(mr);
+// 	song.stop();
+// 	song = mr;
+// 	song.play();
+// }
 
-function change_song_done(){
-	amplitude.setInput(done);
-	song.stop();
-	song = done;
-	song.play();
-}
+// function change_song_done(){
+// 	amplitude.setInput(done);
+// 	song.stop();
+// 	song = done;
+// 	song.play();
+// }
 
 function branch(len) {
   line(0, 0, 0, len);
